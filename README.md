@@ -1,0 +1,2 @@
+# afagnn
+A GNN framework

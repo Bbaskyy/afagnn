@@ -7,7 +7,7 @@ A GNN framework from paper "Decouple Homophily-Heterophily: Adaptive Frequency A
 python main.py
 ```
 
-##Environment Settings:
+## Environment Settings:
 - python=3.9.13
 - numpy=1.21.5
 - pandas=1.4.4

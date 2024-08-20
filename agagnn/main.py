@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
 
 
-    net = FAGCN(data, num_features, num_hidden, num_classes, dropout, eps, layer_num)
+    net = AFAGCN(data, num_features, num_hidden, num_classes, dropout, eps, layer_num)
     net = net.to(device)
     optimizer = torch.optim.Adam(net.parameters(), lr=lr, weight_decay=weight_decay)
 
